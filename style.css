@@ -1,0 +1,241 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --primary-orange: #f37920;
+    --primary-black: #1a1a1a;
+    --primary-white: #ffffff;
+    --light-gray: #f4f4f4;
+    --text-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Header --- */
+header {
+    background: var(--primary-white);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 25px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-black);
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: var(--primary-orange);
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+}
+
+.phone-number {
+    font-weight: bold;
+    color: var(--primary-black);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.cta-button {
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d86810;
+}
+
+.mobile-nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* --- Hero Section --- */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1487401249994-13c594c40595?q=80&w=2070&auto=format&fit=crop'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-white);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button-large {
+    background-color: var(--primary-orange);
+    color: var(--primary-white);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button-large:hover {
+    background-color: #d86810;
+}
+
+/* --- Services Section --- */
+.services, .why-choose-us {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services {
+    background: var(--light-gray);
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card, .feature {
+    background: var(--primary-white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.service-card i, .feature i {
+    font-size: 40px;
+    color: var(--primary-orange);
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+    background: var(--primary-black);
+    color: var(--primary-white);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-content h3 {
+    font-size: 28px;
+}
+
+.footer-phone {
+    display: block;
+    font-size: 24px;
+    color: var(--primary-orange);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    background: #000;
+    padding: 15px 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 768px) {
+    .main-nav, .header-contact {
+        display: none;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+    }
+    
+    .main-nav.active {
+        display: block;
+        position: absolute;
+        top: 70px; /* Adjust based on header height */
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .main-nav.active ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .main-nav.active li {
+        margin: 0;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    .main-nav.active a {
+        display: block;
+        padding: 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 36px;
+    }
+}
