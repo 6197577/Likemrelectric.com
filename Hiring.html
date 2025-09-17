@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Are Hiring | Electric DRS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="https://electricdrs.com/wp-content/uploads/2023/12/Electric-DRS-logo-horz-no-padding-1.png" alt="Electric DRS Logo" class="logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                 <a href="tel:+13044109208" class="phone-number">(304)-410-9208</a>
+                 <a href="https://calendly.com/electricdrs/consultation" target="_blank" class="cta-button">Schedule Now</a>
+            </div>
+            <button class="mobile-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Join Our Team</h1>
+                <p>Build a Powerful Career with Electric DRS</p>
+            </div>
+        </section>
+
+        <section class="page-content">
+            <div class="container">
+                <h2>Why Electric DRS is a Great Place to Work</h2>
+                <p>We're more than just a company; we're a team of dedicated professionals committed to excellence. We invest in our employees with competitive pay, ongoing training, and a supportive work environment where you can truly grow your career. If you are passionate about quality workmanship and customer satisfaction, we want to hear from you.</p>
+            </div>
+        </section>
+
+        <section id="openings" class="job-openings">
+            <div class="container">
+                <h2>Current Openings</h2>
+                <div class="job-listing">
+                    <h3>Licensed Electrician</h3>
+                    <p class="job-location">Charleston, WV & Gainesville, FL</p>
+                    <p>Seeking an experienced and licensed electrician to lead residential and commercial projects. Must have a strong understanding of the NEC, excellent troubleshooting skills, and a commitment to safety.</p>
+                    <button class="apply-now-btn" data-job="Licensed Electrician">Apply Now</button>
+                </div>
+                <div class="job-listing">
+                    <h3>Apprentice Electrician</h3>
+                    <p class="job-location">Charleston, WV & Gainesville, FL</p>
+                    <p>An excellent opportunity for a motivated individual to start their career in the electrical trade. Work alongside experienced electricians, learn on the job, and grow with our company.</p>
+                    <button class="apply-now-btn" data-job="Apprentice Electrician">Apply Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="application-form" class="application-section">
+            <div class="container">
+                <h2>Apply Now</h2>
+                <form class="job-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="linkedin">LinkedIn Profile URL</label>
+                        <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/yourname">
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position Applying For</label>
+                        <select id="position" name="position" required>
+                            <option value="">Select a Position...</option>
+                            <option value="Licensed Electrician">Licensed Electrician</option>
+                            <option value="Apprentice Electrician">Apprentice Electrician</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Upload Resume</label>
+                        <input type="file" id="resume" name="resume" class="file-input" accept=".pdf,.doc,.docx" required>
+                        <label for="resume" class="file-label">
+                            <i class="fas fa-upload"></i> Choose File
+                        </label>
+                        <span id="file-name" class="file-name">No file selected</span>
+                    </div>
+                     <div class="form-group">
+                        <label for="message">Cover Letter or Message (Optional)</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="cta-button-large">Submit Application</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Ready to get started?</h3>
+                <p>Contact us today for reliable service and a free estimate!</p>
+                <a href="tel:+13044109208" class="footer-phone">(304)-410-9208</a>
+                <a href="https://calendly.com/electricdrs/consultation" target="_blank" class="cta-button">Schedule Online</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Electric DRS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
