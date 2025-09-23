@@ -2,141 +2,141 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://www.electricdrs-example.com/index.html</loc>
+    <loc>https://www.electricdrs.com/index.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/hiring.html</loc>
+    <loc>https://www.electricdrs.com/hiring.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.electricdrs-example.com/electrical-inspections.html</loc>
+    <loc>https://www.electricdrs.com/electrical-inspections.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/energy-audits.html</loc>
+    <loc>https://www.electricdrs.com/energy-audits.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/electrical-maintenance.html</loc>
+    <loc>https://www.electricdrs.com/electrical-maintenance.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/lighting-upgrades.html</loc>
+    <loc>https://www.electricdrs.com/lighting-upgrades.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/appliance-repair.html</loc>
+    <loc>https://www.electricdrs.com/appliance-repair.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/security-systems.html</loc>
+    <loc>https://www.electricdrs.com/security-systems.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/security-cameras.html</loc>
+    <loc>https://www.electricdrs.com/security-cameras.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/generator-maintenance.html</loc>
+    <loc>https://www.electricdrs.com/generator-maintenance.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/generator-installation.html</loc>
+    <loc>https://www.electricdrs.com/generator-installation.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/panel-upgrades.html</loc>
+    <loc>https://www.electricdrs.com/panel-upgrades.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.electricdrs-example.com/charleston.html</loc>
+    <loc>https://www.electricdrs.com/charleston.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/south-charleston.html</loc>
+    <loc>https://www.electricdrs.com/south-charleston.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/saint-albans.html</loc>
+    <loc>https://www.electricdrs.com/saint-albans.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/nitro.html</loc>
+    <loc>https://www.electricdrs.com/nitro.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/teays-valley.html</loc>
+    <loc>https://www.electricdrs.com/teays-valley.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/cross-lanes.html</loc>
+    <loc>https://www.electricdrs.com/cross-lanes.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/poca.html</loc>
+    <loc>https://www.electricdrs.com/poca.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/sissonville.html</loc>
+    <loc>https://www.electricdrs.com/sissonville.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/tornado.html</loc>
+    <loc>https://www.electricdrs.com/tornado.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/marmet.html</loc>
+    <loc>https://www.electricdrs.com/marmet.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.electricdrs-example.com/gainesville-fl.html</loc>
+    <loc>https://www.electricdrs.com/gainesville-fl.html</loc>
     <lastmod>2025-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
